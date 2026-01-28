@@ -1,0 +1,31 @@
+{
+  "grammars": [
+    {
+      "name": "ini",
+      "title": "INI",
+      "scope": "source.ini",
+      "highlights": "queries/highlights.scm",
+      "file-types": [
+        "ini",
+        "cfg",
+        "conf",
+        "desktop",
+        "properties"
+      ],
+      "injection-regex": "^ini$"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "INI grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Rene Pietzsch"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/rpietzsch/tree-sitter-ini"
+    }
+  }
+}
